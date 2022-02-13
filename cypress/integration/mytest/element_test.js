@@ -5,6 +5,7 @@ describe('url test', () => {
         cy.contains('Business')
         cy.contains('Business').click()
         cy.url().should('include', '/business')
+        cy.wait(2000)
       // test only
     })
 
