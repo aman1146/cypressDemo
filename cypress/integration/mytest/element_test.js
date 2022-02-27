@@ -7,6 +7,8 @@ describe('url test', () => {
         cy.url().should('include', '/business')
         cy.wait(2000)
       // test only
+      //checking branch
+    
     })
 
 
