@@ -1,5 +1,5 @@
 describe('url test', () => {
-    it('app test', () =>{
+    it.only('app test', () =>{
 
         cy.visit('https://www.google.com/')
         cy.contains('Business')
