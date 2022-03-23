@@ -30,7 +30,7 @@ describe('testing diff viewports', () => {
         cy.viewport('iphone-8')
         cy.screenshot()
         cy.wait(200)
-        cy.wait(500)
+        cy.wait(800)
     })
 
 
